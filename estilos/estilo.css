@@ -1,0 +1,87 @@
+*{
+   margin: 0; padding: 0;
+   font-family: 'Varela';
+}
+
+body{
+   background: #F5EEDC;
+}
+
+header{
+   width: 100%;
+   padding: 10px 0px;
+   background-color: #9B111E;
+}
+
+header figure img{
+   margin: auto;
+   display: block;
+}
+
+.container{
+   width: 940px;
+   margin: auto;
+}
+
+h2{
+   font-family: 'Rozha One';
+   font-size: 20px;
+   line-height: 23px;
+   color: #6F0812;
+}
+
+
+.flex{
+   display: flex;
+   align-items: center;
+}
+
+.mg-tb-10{
+   margin: 10px 0px;
+}
+
+h1{
+   font-size: 22px;
+   text-align: center;
+   color: #6F0812;
+   margin-bottom: 8px;
+}
+
+.item{
+   background-color: rgb(238, 238, 238);
+   display: inline-block;
+   margin: 0px 0px 14px;
+   width: 100%;
+}
+
+.item img{
+  height: auto;
+   width: 100%;
+   vertical-align: top;
+}
+
+figure{
+   position: relative;
+ }
+ 
+ figure div{
+   padding: 10px 0px 5px;
+   background: linear-gradient(
+      0deg
+      ,var(--gradient-start,rgba(0,0,0,.8)) 0,var(--gradient-mid,rgba(0,0,0,.55)) 50%,var(--gradient-end,transparent) 100%);
+   width: 100%;
+   position: absolute;
+   z-index: 1;
+   bottom: 0;
+ }
+ 
+ figure div p{
+   font-size: 10px;
+   padding-left: 5px;
+   color: #F5EEDC;
+ }
+
+ .loading{
+   display: block;
+   margin: auto;
+ }

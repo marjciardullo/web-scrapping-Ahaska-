@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>AKASHA - the art in everything</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+         <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+         <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./estilos/estilo.css" />
+        <link rel="stylesheet" href="./estilos/index.css" />
+        
+    </head>
+    <body>
+      <header>
+         <figure>
+            <img src="./images/logo.png" />
+         </figure>
+      </header>
+      <main class="container">
+         <h3>
+            'AKASHA' is an artwork aggregator, made to scrape images and information about art exhibits being displayed on MoMA, Rijksmuseum and Louvre, and show them all in the same place. Clicking the button below each section, you will be redirected to each museum's respective page, where you can see all its artwork and be able to filter them by name!</h3>
+         <section id="museums">
+            <article id="moma">
+               <h1>MOMA</h1>
+               <div class="grid">
+                  <figure class="item ex">
+                     <div>
+                        <p>nome da obra</p>
+                        <p>2020</p>
+                     </div>
+                     <img src="https://wl-incrivel.cf.tsp.li/resize/728x/jpg/f4e/43b/69a8a856e89a899cdad228af45.jpg" />
+                  </figure>
+                  <figure class="item quadro1">
+                      <div>
+                        <p>nome da obra</p>
+                        <p>2020</p>
+                     </div>
+                     <img src="https://images.memphistours.com/xlarge/bba3f01c0f7468ee9e643f7b56786360.jpg" />
+                  </figure>
+                  <figure class="item quadro2">
+                      <div>
+                        <p>nome da obra</p>
+                        <p>2020</p>
+                     </div>
+                     <img src="https://cdn.pensador.com/img/imagens/ob/ra/obras_de_arte_famosas_f_o.jpg" />
+                  </figure>
+               </div>
+               <a href="filter.html?id=moma">
+                  <button>See more</button>
+               </a>
+            </article>
+            <article id="rij">
+               <h1>RIJKSMUSEUM</h1>
+               <div class="grid">
+                  <figure class="item ex">
+                     <div>
+                        <p>nome da obra</p>
+                        <p>2020</p>
+                     </div>
+                     <img src="https://wl-incrivel.cf.tsp.li/resize/728x/jpg/f4e/43b/69a8a856e89a899cdad228af45.jpg" />
+                  </figure>
+                  <figure class="item quadro1">
+                      <div>
+                        <p>nome da obra</p>
+                        <p>2020</p>
+                     </div>
+                     <img src="https://images.memphistours.com/xlarge/bba3f01c0f7468ee9e643f7b56786360.jpg" />
+                  </figure>
+                  <figure class="item quadro2">
+                      <div>
+                        <p>nome da obra</p>
+                        <p>2020</p>
+                     </div>
+                     <img src="https://cdn.pensador.com/img/imagens/ob/ra/obras_de_arte_famosas_f_o.jpg" />
+                  </figure>
+               </div>
+               <a href="filter.html?id=rij">
+                  <button id="btnRijks">See more</button>
+               </a>
+            </article>
+            <article>
+               <h1>LOUVRE</h1>
+               <div class="grid" id="louvre">
+                  <figure class="item ex">
+                     <div>
+                        <p>nome da obra</p>
+                        <p>2020</p>
+                     </div>
+                     <img src="https://wl-incrivel.cf.tsp.li/resize/728x/jpg/f4e/43b/69a8a856e89a899cdad228af45.jpg" />
+                  </figure>
+                  <figure class="item quadro1">
+                      <div>
+                        <p>nome da obra</p>
+                        <p>2020</p>
+                     </div>
+                     <img src="https://images.memphistours.com/xlarge/bba3f01c0f7468ee9e643f7b56786360.jpg" />
+                  </figure>
+                  <figure class="item quadro2">
+                      <div>
+                        <p>nome da obra</p>
+                        <p>2020</p>
+                     </div>
+                     <img src="https://cdn.pensador.com/img/imagens/ob/ra/obras_de_arte_famosas_f_o.jpg" />
+                  </figure>
+               </div>
+               <a href="filter.html?id=louvre">
+                  <button id="btnLouvre">See more</button>
+               </a>
+            </article>
+         </section>
+      </main>
+      <script src="./scripts/index.js"></script>
+    </body>
+</html>

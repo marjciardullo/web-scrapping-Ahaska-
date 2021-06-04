@@ -1,0 +1,66 @@
+h3{
+   color: #853232;
+   margin: 10px 0px;
+}
+
+#museums{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#museums button{
+   font-family: 'Rozha One';
+   font-size: 20px;  
+   padding: 15px 0px;
+   text-align: center;
+   color: #F5EEDC;
+   background: #853232;
+   border-radius: 3px;
+   width: 100%;
+   border: 0px;
+}
+
+#museums button:hover{
+   cursor: pointer;
+   background: #571c1c;
+}
+
+#museums .grid{
+   display: grid;
+   grid-template-areas:
+   "ex ex"
+   "quadro1 quadro2";
+   column-gap: 10px;
+}
+
+#museums .ex{
+   grid-area: ex;
+}
+
+#museums .ex img{
+   height: 150px;
+   object-fit: cover; 
+   object-position: center center;
+   width: 100%;
+}
+
+#museums .quadro1{
+   grid-area: quadro1;
+}
+
+#museums .quadro2{
+   grid-area: quadro2;
+}
+
+
+.quadro1 img, .quadro2 img{
+   height: 200px;
+   object-fit: cover; 
+   object-position: center center;
+}
+
+
+
